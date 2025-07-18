@@ -1,31 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Delete Account - Tidalink</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fff;
+    }
+    
+    h1 {
+      color: #d32f2f;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      border-bottom: 3px solid #d32f2f;
+      padding-bottom: 1rem;
+    }
+    
+    h2 {
+      color: #004a7c;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #004a7c;
+      padding-bottom: 0.5rem;
+    }
+    
+    p {
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+    
+    .intro {
+      background-color: #fff3cd;
+      border: 1px solid #ffeaa7;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    
+    .warning {
+      background-color: #f8d7da;
+      border: 1px solid #f5c6cb;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      color: #721c24;
+    }
+    
+    .warning h3 {
+      margin-top: 0;
+      color: #d32f2f;
+      font-size: 1.2rem;
+    }
+    
+    ol, ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    
+    li {
+      margin-bottom: 0.8rem;
+      padding-left: 0.5rem;
+    }
+    
+    .step-number {
+      background-color: #004a7c;
+      color: white;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      margin-right: 0.5rem;
+      font-size: 0.9rem;
+    }
+    
+    .email-link {
+      background-color: #004a7c;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    
+    .email-link:hover {
+      background-color: #003d66;
+    }
+    
+    .data-list {
+      background-color: #f8f9fa;
+      border-left: 4px solid #004a7c;
+      padding: 1.5rem;
+      margin: 1rem 0;
+    }
+    
+    .data-list ul {
+      margin: 0;
+    }
+    
+    .retention-info {
+      background-color: #e8f4f8;
+      border: 1px solid #b8d4da;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    
+    .contact-footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 2px solid #dee2e6;
+    }
+    
+    .contact-footer p {
+      font-size: 1.1rem;
+      color: #666;
+    }
+    
+    strong {
+      color: #d32f2f;
+    }
+    
+    .container {
+      min-height: 100vh;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Delete Your Tidalink Account</h1>
-  <p>If you would like to delete your account and all associated data from the Tidalink app, please follow the instructions below:</p>
-  
-  <h2>Steps:</h2>
-  <ol>
-    <li>Email us at <a href="mailto:support@tidalinkapp.com">support@tidalinkapp.com</a> from the same email address associated with your Tidalink account.</li>
-    <li>Include the subject line: <strong>Delete My Account</strong>.</li>
-    <li>In the email body, please confirm that you want your account and all related data permanently deleted.</li>
-  </ol>
-
+  <div class="container">
+    <h1>Delete Your Tidalink Account</h1>
+    
+    <div class="intro">
+      <p>If you would like to delete your account and all associated data from the Tidalink app, please follow the instructions below:</p>
+    </div>
+    
+    <div class="warning">
+      <h3>⚠️ Important Warning</h3>
+      <p><strong>This action is permanent and cannot be undone.</strong> Once your account is deleted, you will not be able to recover your data, including your wishlist, sightings, badges, or chat history.</p>
+    </div>
+    
+    <h2>Steps to Delete Your Account:</h2>
+    <ol>
+      <li>Email us at <a href="mailto:support@tidalinkapp.com" class="email-link">support@tidalinkapp.com</a> from the same email address associated with your Tidalink account.</li>
+      <li>Include the subject line: <strong>Delete My Account</strong>.</li>
+      <li>In the email body, please confirm that you want your account and all related data permanently deleted.</li>
+    </ol>
+    
     <h2>What will be deleted:</h2>
-  <ul>
-    <li>Your account and login credentials</li>
-    <li>Personal details (email, age, country)</li>
-    <li>Wishlist items, sightings, and earned badges</li>
-    <li>Chat and post history</li>
-  </ul>
-
-
-  <h2>Retention Policy:</h2>
-  <p>We process deletion requests within 7 days. Some anonymized, non-personal data may be retained for statistical purposes only.</p>
-
-  <p>For questions, contact <a href="mailto:support@tidalinkapp.com">support@tidalinkapp.com</a>.</p>
+    <div class="data-list">
+      <ul>
+        <li>Your account and login credentials</li>
+        <li>Personal details (email, age, country)</li>
+        <li>Wishlist items, sightings, and earned badges</li>
+        <li>Chat and post history</li>
+      </ul>
+    </div>
+    
+    <h2>Retention Policy:</h2>
+    <div class="retention-info">
+      <p>We process deletion requests within <strong>7 days</strong>. Some anonymized, non-personal data may be retained for statistical purposes only.</p>
+    </div>
+    
+    <div class="contact-footer">
+      <p>For questions or concerns, contact us at <a href="mailto:support@tidalinkapp.com" class="email-link">support@tidalinkapp.com</a></p>
+    </div>
+  </div>
 </body>
 </html>
